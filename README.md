@@ -28,8 +28,8 @@ Movie records also include TMDB ID, titles, release date, runtime, poster/backdr
 
 1. Install Node.js 22 or later.
 2. Install dependencies with `npm install`.
-3. Copy `.env.example` to `.env.local`.
-4. Create a free TMDB API key and set `TMDB_API_KEY` in `.env.local`.
+3. Create `.env.local` and add `TMDB_API_KEY=your_key_here`.
+4. Keep this file private; it is already excluded from Git.
 5. Start with `npm run dev`, then open the local address shown.
 
 Never commit `.env.local` or a real API key.
@@ -81,7 +81,7 @@ The repository includes an optional evidence-first Gemini workflow. It uses Goog
 3. Open the completed run summary. It lists prepared ratings and films kept as NR with reasons.
 4. Inspect `public/data/pending-scores.json` before approval.
 
-The workflow refreshes the 1,000-film TMDB catalogue privately during the run, skips films that already have approved or pending assessments, and processes at most 25 films per run. It commits only prepared drafts and the audit report—not the temporary catalogue refresh.
+The workflow refreshes the rolling two-year TMDB catalogue privately during the run, skips films that already have approved or pending assessments, and processes at most 25 films per run. It commits only prepared drafts and the audit report—not the temporary catalogue refresh.
 
 ### Approve a reviewed batch
 

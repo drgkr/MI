@@ -176,7 +176,7 @@ export default function Home() {
 
     <section className="featured-strip" id="films">
       <div className="section-heading"><div><span className="kicker">LATEST RELEASES</span><h2>Twenty recent Malayalam films</h2><p>The newest releases appear first; completed evidence reviews display their published Mollywood Index score.</p></div><div className="rail-actions"><button onClick={() => scroll(-1)} aria-label="View earlier posters">←</button><button onClick={() => scroll(1)} aria-label="View more posters">→</button></div></div>
-      <div className="poster-rail" ref={rail} tabIndex={0} aria-label="20 most recent rated films ordered newest first">
+      <div className="poster-rail" ref={rail} tabIndex={0} aria-label="20 most recent Malayalam films ordered newest first">
         {latest.map(item => <button className={`poster-card ${item.id === film.id ? "active" : ""}`} key={item.id} onClick={() => choose(item)}>
           <div className="poster-wrap"><Poster film={item}/>{item.isNew && <span className="new-week-badge">New this week</span>}</div>
           <ScoreMeter film={item}/>
