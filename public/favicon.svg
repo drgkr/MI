@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="8" fill="#071319"/>
+<rect x="5" y="5" width="54" height="54" rx="5" fill="none" stroke="#69d7c3" stroke-width="3"/>
+<text x="32" y="41" text-anchor="middle" fill="#69d7c3" font-family="Georgia,serif" font-size="28" font-weight="700">MI</text>
+</svg>
