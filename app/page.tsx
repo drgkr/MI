@@ -92,7 +92,7 @@ export default function Home() {
   }, []);
 
   const newest = useMemo(() => [...films].sort((a,b) => b.releaseDate.localeCompare(a.releaseDate)), [films]);
-  const latest = useMemo(() => newest.slice(0, 20), [newest]);
+  const latest = useMemo(() => newest.filter(item => item.ratingStatus === "rated" && item.scores).slice(0, 20), [newest]);
   const latestSignature = useMemo(() => latest.map(item => item.id).join(","), [latest]);
   useEffect(() => {
     const resetRail = () => {
