@@ -777,8 +777,8 @@
       },
       "sources": [
         {
-          "name": "Mathrubhumi review",
-          "url": "https://www.mathrubhumi.com/movies-music/review/its-a-medical-miracle-movie-review-1.10901155",
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/its-a-medical-miracle-movie-review-sangeeth-sharaf-u-dheens-film-is-ambitious-engaging-10882947/",
           "kind": "Lead critic",
           "weight": 20
         },
@@ -789,8 +789,8 @@
           "weight": 20
         },
         {
-          "name": "Filmibeat audience and reception report",
-          "url": "https://www.filmibeat.com/malayalam/news/2026/its-a-medical-miracle-x-review-what-audiences-are-saying-about-sangeeth-prathap-sharaf-u-dheen-film-531545.html",
+          "name": "Critical reception review panel",
+          "url": "https://en.wikipedia.org/wiki/It%27s_a_Medical_Miracle#Reception",
           "kind": "Additional critic",
           "weight": 40
         },
