@@ -14,11 +14,6 @@ const today = new Date();
 const twoYearsAgo = new Date(today);
 twoYearsAgo.setUTCFullYear(today.getUTCFullYear() - 2);
 
-if (!key) {
-  console.log("TMDB_API_KEY is not set; publishing the curated sample catalogue.");
-  process.exit(0);
-}
-
 const ratingsFile = new URL("../public/data/scores.json", import.meta.url);
 let approvedRatings = {};
 try {
@@ -26,6 +21,29 @@ try {
   approvedRatings = scoreData.ratings || {};
 } catch {
   console.log("No approved ratings file found; films will be published as not yet rated.");
+}
+
+const titleRatingKey = (movie) => `${movie.title}-${movie.release_date?.slice(0, 4) || movie.year || ""}`
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/(^-|-$)/g, "");
+
+if (!key) {
+  const existing = JSON.parse(await readFile(output, "utf8"));
+  const movies = (existing.movies || []).map((movie) => {
+    const rating = approvedRatings[String(movie.id)] || approvedRatings[titleRatingKey(movie)];
+    return {
+      ...movie,
+      confidence: rating?.confidence || null,
+      sourceCount: rating?.sources?.length || 0,
+      sources: rating?.sources || [],
+      scores: rating?.scores || null,
+      ratingStatus: rating ? "rated" : "unrated",
+    };
+  });
+  await writeFile(output, JSON.stringify({ ...existing, generatedAt: new Date().toISOString(), movies }, null, 2));
+  console.log(`TMDB_API_KEY is not set; merged ${Object.keys(approvedRatings).length} approved ratings into the existing catalogue.`);
+  process.exit(0);
 }
 
 const query = {
@@ -38,10 +56,6 @@ const query = {
 };
 
 const wait = (milliseconds) => new Promise(resolve => setTimeout(resolve, milliseconds));
-const titleRatingKey = (movie) => `${movie.title}-${movie.release_date?.slice(0, 4) || ""}`
-  .toLowerCase()
-  .replace(/[^a-z0-9]+/g, "-")
-  .replace(/(^-|-$)/g, "");
 const fetchJson = async (url, attempts = 5) => {
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     const response = await fetch(url);
