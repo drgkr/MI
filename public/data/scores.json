@@ -2,124 +2,1204 @@
   "schemaVersion": 1,
   "description": "Approved evidence-backed Malayalam film ratings keyed by TMDB movie ID. Films without a record remain Not Yet Rated.",
   "ratings": {
-    "1290190": {
-      "title": "Lokah Chapter 1: Chandra",
-      "assessedAt": "2026-10-24",
-      "confidence": "High",
-      "scores": { "writing": 82, "emotion": 76, "pacing": 78, "performances": 84, "rewatch": 86, "critics": 82, "audience": 90 },
-      "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/lokah-chapter-1-review-kalyani-priyadarshan-naslen-deliver-one-of-indian-cinemas-finest-superhero-films-10215021/", "kind": "Lead critic", "weight": 20 },
-        { "name": "Roopa Radhakrishnan — The Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/kotha-lokah-chapter-1-chandra/movie-review/123567801.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "New Indian Express review", "url": "https://www.newindianexpress.com/entertainment/entertainment-news/2025/Aug/29/malayalamreview2025aug28lokah-chapter-1-chandra-movie-review-a-blazing-reimagination-of-a-home-grown-world-of-myth", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1290190", "kind": "Audience", "weight": 20 }
-      ]
-    },
-    "1261125": {
-      "title": "Thudarum",
-      "assessedAt": "2026-10-24",
-      "confidence": "High",
-      "scores": { "writing": 78, "emotion": 86, "pacing": 72, "performances": 92, "rewatch": 80, "critics": 82, "audience": 88 },
-      "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/thudarum-movie-review-mohanlal-delivers-a-nearly-flawless-revenge-thriller-9964517/", "kind": "Lead critic", "weight": 20 },
-        { "name": "Anna Mathews — The Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/thudarum/movie-review/120620943.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Vignesh Madhu — New Indian Express", "url": "https://www.newindianexpress.com/entertainment/review/2025/Apr/26/thudarum-movie-review-mohanlal-returns-to-glorious-form", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1261125", "kind": "Audience", "weight": 20 }
-      ]
-    },
     "627336": {
       "title": "L2: Empuraan",
       "assessedAt": "2026-10-24",
       "confidence": "Medium",
-      "scores": { "writing": 58, "emotion": 62, "pacing": 55, "performances": 84, "rewatch": 70, "critics": 62, "audience": 82 },
+      "scores": {
+        "writing": 58,
+        "emotion": 62,
+        "pacing": 55,
+        "performances": 84,
+        "rewatch": 70,
+        "critics": 62,
+        "audience": 82
+      },
       "sources": [
-        { "name": "Anna Mathews — The Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/l2-empuraan/etmoviereview/119585684.cms", "kind": "Lead critic", "weight": 20 },
-        { "name": "Cinema Express review", "url": "https://www.newindianexpress.com/entertainment/malayalam/2025/Mar/29/l2-empuraan-movie-review-a-middling-midpiece-of-a-still-enticing-franchise", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Saibal Chatterjee — NDTV", "url": "https://www.ndtv.com/entertainment/l2-empuraan-review-mohanlals-film-delivers-less-than-it-promises-2-5-stars-8029053", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/627336", "kind": "Audience", "weight": 20 }
+        {
+          "name": "Anna Mathews — The Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/l2-empuraan/etmoviereview/119585684.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.newindianexpress.com/entertainment/malayalam/2025/Mar/29/l2-empuraan-movie-review-a-middling-midpiece-of-a-still-enticing-franchise",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Saibal Chatterjee — NDTV",
+          "url": "https://www.ndtv.com/entertainment/l2-empuraan-review-mohanlals-film-delivers-less-than-it-promises-2-5-stars-8029053",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/627336",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     },
-    "1245571": {
-      "title": "Alappuzha Gymkhana",
-      "assessedAt": "2026-10-24",
-      "confidence": "High",
-      "scores": { "writing": 78, "emotion": 76, "pacing": 82, "performances": 84, "rewatch": 86, "critics": 82, "audience": 88 },
-      "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/alappuzha-gymkhana-review-naslen-khalid-rahman-deliver-a-new-kind-of-sports-film-9937004/", "kind": "Lead critic", "weight": 20 },
-        { "name": "Vivek Santhosh — Cinema Express", "url": "https://www.cinemaexpress.com/malayalam/review/2025/Apr/10/alappuzha-gymkhana-movie-review-boxing-gets-the-sweet-and-simple-treatment", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Rotten Tomatoes critic panel", "url": "https://www.rottentomatoes.com/m/alappuzha_gymkhana", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1245571", "kind": "Audience", "weight": 20 }
-      ]
-    },
-    "1281091": {
-      "title": "Officer on Duty",
-      "assessedAt": "2026-10-24",
+    "847742": {
+      "title": "Drishyam 3",
+      "assessedAt": "2026-10-25",
       "confidence": "Medium",
-      "scores": { "writing": 64, "emotion": 66, "pacing": 76, "performances": 84, "rewatch": 68, "critics": 64, "audience": 78 },
+      "scores": {
+        "writing": 58,
+        "emotion": 66,
+        "pacing": 60,
+        "performances": 84,
+        "rewatch": 64,
+        "critics": 58,
+        "audience": 72
+      },
       "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/officer-on-duty-movie-review-kunchacko-boban-shines-in-a-thriller-that-intrigues-but-never-truly-impresses-9845645/", "kind": "Lead critic", "weight": 20 },
-        { "name": "The Times of India review", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/officerondutyreview/movie-review/118434473.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Cinema Express review", "url": "https://www.cinemaexpress.com/malayalam/review/2025/Feb/20/officer-on-duty-movie-review-kunchacko-boban-excels-in-an-intense-but-formulaic-thriller", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1281091", "kind": "Audience", "weight": 20 }
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/drishyam-3-movie-review-a-close-shave-for-mohanlal-jeethu-joseph-as-georgekutty-battles-himself-10700106/lite/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Bollywood.com critic panel",
+          "url": "https://www.bollywood.com/movies/drishyam-3/reviews/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception panel",
+          "url": "https://en.wikipedia.org/wiki/Drishyam_3#Reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/847742",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "869152": {
+      "title": "Titans",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 34,
+        "emotion": 38,
+        "pacing": 35,
+        "performances": 58,
+        "rewatch": 36,
+        "critics": 33,
+        "audience": 42
+      },
+      "sources": [
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Oct/23/titans-movie-review-occasionally-fun-but-lost-in-fantasy",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/titans-movie-review-rating-jayasurya-vinayakan-fantasy-comedy-tiring-unfunny-disaster-10931574/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "NDTV review",
+          "url": "https://www.ndtv.com/entertainment/titans-review-despite-vinayakans-strong-act-this-crime-fantasy-comedy-fails-to-take-off-2-stars-12224192",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/869152",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     },
     "950075": {
       "title": "Sookshmadarshini",
       "assessedAt": "2026-10-24",
       "confidence": "High",
-      "scores": { "writing": 84, "emotion": 70, "pacing": 84, "performances": 88, "rewatch": 86, "critics": 84, "audience": 88 },
+      "scores": {
+        "writing": 84,
+        "emotion": 70,
+        "pacing": 84,
+        "performances": 88,
+        "rewatch": 86,
+        "critics": 84,
+        "audience": 88
+      },
       "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/sookshmadarshini-movie-review-basil-joseph-nazriya-nazim-deliver-a-suspenseful-and-hilarious-mystery-comedy-9682324/", "kind": "Lead critic", "weight": 20 },
-        { "name": "Anna Mathews — The Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/sookshmadarshini/etmoviereview/115589632.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Critical reception review panel", "url": "https://en.wikipedia.org/wiki/Sookshmadarshini#Reception", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/950075", "kind": "Audience", "weight": 20 }
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/sookshmadarshini-movie-review-basil-joseph-nazriya-nazim-deliver-a-suspenseful-and-hilarious-mystery-comedy-9682324/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Anna Mathews — The Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/sookshmadarshini/etmoviereview/115589632.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception review panel",
+          "url": "https://en.wikipedia.org/wiki/Sookshmadarshini#Reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/950075",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1101020": {
+      "title": "Baby Girl",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 62,
+        "emotion": 68,
+        "pacing": 61,
+        "performances": 76,
+        "rewatch": 62,
+        "critics": 62,
+        "audience": 66
+      },
+      "sources": [
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/01/23/baby-girl-malayalam-movie-review-nivin-pauly-film.html",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/baby-girl/etmoviereview/127322491.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception panel",
+          "url": "https://en.wikipedia.org/wiki/Baby_Girl_(2026_film)#Reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1101020",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     },
     "1177623": {
       "title": "Rifle Club",
       "assessedAt": "2026-10-24",
       "confidence": "High",
-      "scores": { "writing": 72, "emotion": 62, "pacing": 80, "performances": 86, "rewatch": 82, "critics": 76, "audience": 84 },
+      "scores": {
+        "writing": 72,
+        "emotion": 62,
+        "pacing": 80,
+        "performances": 86,
+        "rewatch": 82,
+        "critics": 76,
+        "audience": 84
+      },
       "sources": [
-        { "name": "Avinash Ramachandran — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/rifle-club-movie-review-aashiq-abu-returns-all-guns-blazing-in-this-eclectic-explosive-and-entertaining-hunt-9734365/", "kind": "Lead critic", "weight": 20 },
-        { "name": "The Times of India review", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/rifle-club/etmoviereview/116470553.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Dhanya K Vilayil — Indian Express Malayalam", "url": "https://malayalam.indianexpress.com/entertainment/rifle-club-movie-review-rating-aashiq-abu-8504352", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1177623", "kind": "Audience", "weight": 20 }
+        {
+          "name": "Avinash Ramachandran — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/rifle-club-movie-review-aashiq-abu-returns-all-guns-blazing-in-this-eclectic-explosive-and-entertaining-hunt-9734365/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/rifle-club/etmoviereview/116470553.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Dhanya K Vilayil — Indian Express Malayalam",
+          "url": "https://malayalam.indianexpress.com/entertainment/rifle-club-movie-review-rating-aashiq-abu-8504352",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1177623",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     },
     "1186350": {
       "title": "Marco",
       "assessedAt": "2026-10-24",
       "confidence": "Medium",
-      "scores": { "writing": 42, "emotion": 38, "pacing": 62, "performances": 78, "rewatch": 68, "critics": 48, "audience": 76 },
+      "scores": {
+        "writing": 42,
+        "emotion": 38,
+        "pacing": 62,
+        "performances": 78,
+        "rewatch": 68,
+        "critics": 48,
+        "audience": 76
+      },
       "sources": [
-        { "name": "The Indian Express analysis", "url": "https://indianexpress.com/article/opinion/columns/malayalam-film-marco-violence-india-trend-9795364/", "kind": "Lead critic", "weight": 20 },
-        { "name": "Cinema Express review", "url": "https://www.cinemaexpress.com/malayalam/review/2024/Dec/20/marco-movie-review-gruesome-violence-makes-it-an-unpalatable-experience", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Critical reception review panel", "url": "https://en.wikipedia.org/wiki/Marco_(2024_film)#Critical_reception", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1186350", "kind": "Audience", "weight": 20 }
-      ]
-    },
-    "1290954": {
-      "title": "Rekhachithram",
-      "assessedAt": "2026-10-24",
-      "confidence": "High",
-      "scores": { "writing": 78, "emotion": 78, "pacing": 74, "performances": 88, "rewatch": 78, "critics": 82, "audience": 84 },
-      "sources": [
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/rekhachithram-movie-review-asif-ali-anaswara-rajans-mystery-thriller-is-a-tribute-to-the-magical-allure-of-cinema-9768174/", "kind": "Lead critic", "weight": 20 },
-        { "name": "The Times of India review", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/rekhachithram/movie-review/117109656.cms", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Critical reception review panel", "url": "https://en.wikipedia.org/wiki/Rekhachithram#Critical_reception", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1290954", "kind": "Audience", "weight": 20 }
+        {
+          "name": "The Indian Express analysis",
+          "url": "https://indianexpress.com/article/opinion/columns/malayalam-film-marco-violence-india-trend-9795364/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2024/Dec/20/marco-movie-review-gruesome-violence-makes-it-an-unpalatable-experience",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception review panel",
+          "url": "https://en.wikipedia.org/wiki/Marco_(2024_film)#Critical_reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1186350",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     },
     "1244068": {
       "title": "Ponman",
       "assessedAt": "2026-10-24",
       "confidence": "High",
-      "scores": { "writing": 84, "emotion": 82, "pacing": 78, "performances": 92, "rewatch": 80, "critics": 86, "audience": 88 },
+      "scores": {
+        "writing": 84,
+        "emotion": 82,
+        "pacing": 78,
+        "performances": 92,
+        "rewatch": 80,
+        "critics": 86,
+        "audience": 88
+      },
       "sources": [
-        { "name": "Anna Mathews — The Times of India", "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/ponman/movie-review/117733648.cms", "kind": "Lead critic", "weight": 20 },
-        { "name": "Anandu Suresh — The Indian Express", "url": "https://indianexpress.com/article/entertainment/movie-review/ponman-movie-review-basil-joseph-and-sajin-gopu-lead-a-technically-brilliant-but-deeply-problematic-film-9806890/", "kind": "Second lead critic", "weight": 20 },
-        { "name": "Cinema Express review", "url": "https://www.cinemaexpress.com/malayalam/review/2025/Jan/30/ponman-movie-review-a-gripping-tale-of-unyielding-resilience-forged-in-gold", "kind": "Additional critic", "weight": 40 },
-        { "name": "TMDB audience rating", "url": "https://www.themoviedb.org/movie/1244068", "kind": "Audience", "weight": 20 }
+        {
+          "name": "Anna Mathews — The Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/ponman/movie-review/117733648.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/ponman-movie-review-basil-joseph-and-sajin-gopu-lead-a-technically-brilliant-but-deeply-problematic-film-9806890/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2025/Jan/30/ponman-movie-review-a-gripping-tale-of-unyielding-resilience-forged-in-gold",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1244068",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1244547": {
+      "title": "Udumbanchola Vision",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 39,
+        "emotion": 42,
+        "pacing": 38,
+        "performances": 58,
+        "rewatch": 36,
+        "critics": 36,
+        "audience": 45
+      },
+      "sources": [
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/udumbanchola-vision-movie-review-mathew-thomas-dileesh-pothan-salaam-bukhari-10933049/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Nowrunning review",
+          "url": "https://www.nowrunning.com/movie/29231/udumbanchola-vision/12268/review/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Cinema Post review",
+          "url": "https://thecinemapost.com/reviews/udumbanchola-vision-review-a-relevant-take-on-media-commercialisation-that-falls-short",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1244547",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1245571": {
+      "title": "Alappuzha Gymkhana",
+      "assessedAt": "2026-10-24",
+      "confidence": "High",
+      "scores": {
+        "writing": 78,
+        "emotion": 76,
+        "pacing": 82,
+        "performances": 84,
+        "rewatch": 86,
+        "critics": 82,
+        "audience": 88
+      },
+      "sources": [
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/alappuzha-gymkhana-review-naslen-khalid-rahman-deliver-a-new-kind-of-sports-film-9937004/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Vivek Santhosh — Cinema Express",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2025/Apr/10/alappuzha-gymkhana-movie-review-boxing-gets-the-sweet-and-simple-treatment",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Rotten Tomatoes critic panel",
+          "url": "https://www.rottentomatoes.com/m/alappuzha_gymkhana",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1245571",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1250502": {
+      "title": "I'm Game",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 56,
+        "emotion": 58,
+        "pacing": 60,
+        "performances": 76,
+        "rewatch": 62,
+        "critics": 58,
+        "audience": 64
+      },
+      "sources": [
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/09/03/im-game-movie-review-dulquer-salmaan-nihas-hidayath.html",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Sep/03/im-game-movie-review-a-gamble-gone-wrong",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/im-game-movie-review-dulquer-salmaans-fantasy-actioner-is-a-gamble-that-nearly-pays-off-10860784/lite/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1250502",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1260210": {
+      "title": "Aadu 3 Part 1",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 60,
+        "emotion": 58,
+        "pacing": 66,
+        "performances": 78,
+        "rewatch": 72,
+        "critics": 64,
+        "audience": 76
+      },
+      "sources": [
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Mar/19/aadu-3-part-1-movie-review-fun-and-impressive-in-scale-but-falls-just-short",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Indian Express Malayalam review",
+          "url": "https://malayalam.indianexpress.com/entertainment/aadu-3-one-last-ride-part-1-movie-review-rating-11225067",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception panel",
+          "url": "https://en.wikipedia.org/wiki/Aadu_3#Reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1260210",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1261125": {
+      "title": "Thudarum",
+      "assessedAt": "2026-10-24",
+      "confidence": "High",
+      "scores": {
+        "writing": 78,
+        "emotion": 86,
+        "pacing": 72,
+        "performances": 92,
+        "rewatch": 80,
+        "critics": 82,
+        "audience": 88
+      },
+      "sources": [
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/thudarum-movie-review-mohanlal-delivers-a-nearly-flawless-revenge-thriller-9964517/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Anna Mathews — The Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/thudarum/movie-review/120620943.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Vignesh Madhu — New Indian Express",
+          "url": "https://www.newindianexpress.com/entertainment/review/2025/Apr/26/thudarum-movie-review-mohanlal-returns-to-glorious-form",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1261125",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1281091": {
+      "title": "Officer on Duty",
+      "assessedAt": "2026-10-24",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 64,
+        "emotion": 66,
+        "pacing": 76,
+        "performances": 84,
+        "rewatch": 68,
+        "critics": 64,
+        "audience": 78
+      },
+      "sources": [
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/officer-on-duty-movie-review-kunchacko-boban-shines-in-a-thriller-that-intrigues-but-never-truly-impresses-9845645/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/officerondutyreview/movie-review/118434473.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2025/Feb/20/officer-on-duty-movie-review-kunchacko-boban-excels-in-an-intense-but-formulaic-thriller",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1281091",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1290035": {
+      "title": "Avaraachan & Sons",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 50,
+        "emotion": 58,
+        "pacing": 52,
+        "performances": 70,
+        "rewatch": 55,
+        "critics": 50,
+        "audience": 58
+      },
+      "sources": [
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/avaraachan-sons/etmoviereview/134645288.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Nowrunning review",
+          "url": "https://www.nowrunning.com/movie/31413/avarachan-sons/12265/review/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Rotten Tomatoes critic panel",
+          "url": "https://www.rottentomatoes.com/m/avaraachan_and_sons",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1290035",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1290190": {
+      "title": "Lokah Chapter 1: Chandra",
+      "assessedAt": "2026-10-24",
+      "confidence": "High",
+      "scores": {
+        "writing": 82,
+        "emotion": 76,
+        "pacing": 78,
+        "performances": 84,
+        "rewatch": 86,
+        "critics": 82,
+        "audience": 90
+      },
+      "sources": [
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/lokah-chapter-1-review-kalyani-priyadarshan-naslen-deliver-one-of-indian-cinemas-finest-superhero-films-10215021/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Roopa Radhakrishnan — The Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/kotha-lokah-chapter-1-chandra/movie-review/123567801.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "New Indian Express review",
+          "url": "https://www.newindianexpress.com/entertainment/entertainment-news/2025/Aug/29/malayalamreview2025aug28lokah-chapter-1-chandra-movie-review-a-blazing-reimagination-of-a-home-grown-world-of-myth",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1290190",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1290954": {
+      "title": "Rekhachithram",
+      "assessedAt": "2026-10-24",
+      "confidence": "High",
+      "scores": {
+        "writing": 78,
+        "emotion": 78,
+        "pacing": 74,
+        "performances": 88,
+        "rewatch": 78,
+        "critics": 82,
+        "audience": 84
+      },
+      "sources": [
+        {
+          "name": "Anandu Suresh — The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/rekhachithram-movie-review-asif-ali-anaswara-rajans-mystery-thriller-is-a-tribute-to-the-magical-allure-of-cinema-9768174/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/rekhachithram/movie-review/117109656.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Critical reception review panel",
+          "url": "https://en.wikipedia.org/wiki/Rekhachithram#Critical_reception",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1290954",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1300501": {
+      "title": "Patriot",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 70,
+        "emotion": 68,
+        "pacing": 64,
+        "performances": 88,
+        "rewatch": 70,
+        "critics": 72,
+        "audience": 76
+      },
+      "sources": [
+        {
+          "name": "India Today review",
+          "url": "https://www.indiatoday.in/movies/reviews/story/patriot-review-mammootty-is-invincible-mohanlal-fahadh-ably-support-spy-drama-2904255-2026-05-01",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/May/01/patriot-movie-review-this-relevant-spy-thriller-misses-often-yet-lands",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/05/01/patriot-mahesh-narayanan-mammootty-mohanlal-nayanthara-full-movie-review.html",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1300501",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1339676": {
+      "title": "I, Nobody",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 54,
+        "emotion": 58,
+        "pacing": 55,
+        "performances": 76,
+        "rewatch": 57,
+        "critics": 55,
+        "audience": 60
+      },
+      "sources": [
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Jul/09/i-nobody-movie-review-promising-thriller-marred-by-jarring-tonal-inconsistencies",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/inobody/movie-review/132285371.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/i-nobody-movie-review-prithvirajs-heist-thriller-steals-your-time-not-your-attention-10778771/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1339676",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1422822": {
+      "title": "It's a Medical Miracle",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 54,
+        "emotion": 58,
+        "pacing": 56,
+        "performances": 64,
+        "rewatch": 55,
+        "critics": 56,
+        "audience": 58
+      },
+      "sources": [
+        {
+          "name": "Mathrubhumi review",
+          "url": "https://www.mathrubhumi.com/movies-music/review/its-a-medical-miracle-movie-review-1.10901155",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Cinema Post review",
+          "url": "https://thecinemapost.com/reviews/its-a-medical-miracle-review-sangeeth-prathap-and-sharaf-u-dheens-film-on-an-ordinary-man-with-a-superpower-is-a-passable-entertainer",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Filmibeat audience and reception report",
+          "url": "https://www.filmibeat.com/malayalam/news/2026/its-a-medical-miracle-x-review-what-audiences-are-saying-about-sangeeth-prathap-sharaf-u-dheen-film-531545.html",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1422822",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1439594": {
+      "title": "Chatha Pacha: The Ring of Rowdies",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 52,
+        "emotion": 54,
+        "pacing": 66,
+        "performances": 78,
+        "rewatch": 68,
+        "critics": 58,
+        "audience": 72
+      },
+      "sources": [
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Jan/22/chatha-pacha-movie-review-action-hits-hard-drama-doesnt",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/chatha-pacha-the-ring-of-rowdies/movie-review/127149255.cms",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/chatha-pacha-movie-review-rating-roshan-mathew-arjun-ashokan-mammootty-actioner-thrilling-tribute-to-wwe-obsessed-childhoods-fails-as-film-10487964/lite/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1439594",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1506736": {
+      "title": "Thudakkam",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 50,
+        "emotion": 58,
+        "pacing": 60,
+        "performances": 66,
+        "rewatch": 58,
+        "critics": 55,
+        "audience": 62
+      },
+      "sources": [
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/thudakkam-review-vismaya-mohanlal-shines-but-mohanlals-cameo-cant-save-this-flawed-film-10822489/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/08/07/thudakkam-movie-review-vismaya-mohanlal-jude-anthany-malayalam-film.amp.html",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/thudakkam/amp_movie_review/133033125.cms",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1506736",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1508168": {
+      "title": "Bethlehem Kudumba Unit",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 86,
+        "emotion": 90,
+        "pacing": 82,
+        "performances": 90,
+        "rewatch": 88,
+        "critics": 86,
+        "audience": 90
+      },
+      "sources": [
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/bethlehem-kudumba-unit-review-nivin-pauly-mamitha-lead-a-sweet-non-creepy-age-gap-rom-com-10842662/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/08/21/nivin-pauly-mamitha-baiju-bethlehem-kudumba-unit-movie-review-onam-entertainer.html",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Hindustan Times review",
+          "url": "https://www.hindustantimes.com/entertainment/others/bethlehem-kudumba-unit-review-nivin-pauly-mamitha-baiju-are-note-perfect-in-a-sweet-wondrous-gift-of-a-film-101787420407252.html/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1508168",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1513475": {
+      "title": "Aasha",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 64,
+        "emotion": 74,
+        "pacing": 61,
+        "performances": 86,
+        "rewatch": 66,
+        "critics": 65,
+        "audience": 70
+      },
+      "sources": [
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/09/11/aasha-malayalam-movie-urvashi-aishwarya-lekshmi-joju-george-review.amp.html",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Nowrunning review",
+          "url": "https://www.nowrunning.com/movie/31380/asha/12261/review/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/aasha-movie-review-urvashi-and-joju-george-anchor-a-flawed-yet-compelling-drama-thriller-10872790/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1513475",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1542187": {
+      "title": "Varavu",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 40,
+        "emotion": 46,
+        "pacing": 42,
+        "performances": 68,
+        "rewatch": 45,
+        "critics": 42,
+        "audience": 50
+      },
+      "sources": [
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/varavu-movie-review-joju-george-shines-in-an-otherwise-dull-revenge-saga-10789501/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/07/16/varavu-movie-review-shaji-kailas-joju-george.html",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Jul/16/varavu-movie-review-a-revenge-saga-frozen-in-the-90s",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1542187",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1544847": {
+      "title": "Pradhama Drishtiya Kuttakkar",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 78,
+        "emotion": 72,
+        "pacing": 80,
+        "performances": 84,
+        "rewatch": 78,
+        "critics": 78,
+        "audience": 82
+      },
+      "sources": [
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/pradhama-drishtya-kuttakkar/etmoviereview/134063328.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Nowrunning review",
+          "url": "https://www.nowrunning.com/movie/31316/pradhama-drishtya-kuttakkar/12262/review/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Rotten Tomatoes critic panel",
+          "url": "https://www.rottentomatoes.com/m/pradhama_drishtya_kuttakkar",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1544847",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1545486": {
+      "title": "Unmadham",
+      "assessedAt": "2026-10-25",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 72,
+        "emotion": 70,
+        "pacing": 68,
+        "performances": 84,
+        "rewatch": 72,
+        "critics": 74,
+        "audience": 76
+      },
+      "sources": [
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/unmadham/movie-review/132765391.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/07/31/unmadham-movie-review-kiran-das-shahi-kabir-kunchacko-boban.html",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Jul/31/unmadham-movie-review-fresh-ideas-diluted-by-dated-resolutions",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1545486",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1588472": {
+      "title": "L&O - Law and Order",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 26,
+        "emotion": 30,
+        "pacing": 28,
+        "performances": 52,
+        "rewatch": 25,
+        "critics": 27,
+        "audience": 34
+      },
+      "sources": [
+        {
+          "name": "Nowrunning review",
+          "url": "https://www.nowrunning.com/movie/32360/law-and-order/12264/review/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Sep/18/law-and-order-movie-review-a-stale-and-unintentionally-funny-cop-saga",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2026/09/18/law-and-order-movie-review-prakash-varma-ranjith-movie.html",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1588472",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1590718": {
+      "title": "Dhoomakethu",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 56,
+        "emotion": 55,
+        "pacing": 62,
+        "performances": 68,
+        "rewatch": 61,
+        "critics": 57,
+        "audience": 62
+      },
+      "sources": [
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/dhoomakethu-movie-review-sajin-gopu-nikhila-vimal-quirky-time-loop-comedy-stuck-own-loop-10893039/",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Hollywood Reporter India review",
+          "url": "https://www.hollywoodreporterindia.com/reviews/theatrical/dhoomakethu-movie-review-a-time-loop-comedy-that-keeps-droning-on-and-on-and-on",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/dhoomakethu/amp_movie_review/134489357.cms",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1590718",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1740967": {
+      "title": "Orijinal",
+      "assessedAt": "2026-10-25",
+      "confidence": "High",
+      "scores": {
+        "writing": 64,
+        "emotion": 62,
+        "pacing": 55,
+        "performances": 66,
+        "rewatch": 57,
+        "critics": 60,
+        "audience": 62
+      },
+      "sources": [
+        {
+          "name": "Cinema Express review",
+          "url": "https://www.cinemaexpress.com/malayalam/review/2026/Oct/23/orijinal-movie-review-an-engaging-time-travel-fable-about-the-ethics-of-success",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/orijinal-movie-review-a-time-travel-drama-that-trades-sci-fi-jargon-for-moral-conflict-10933058/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Mathrubhumi review",
+          "url": "https://english.mathrubhumi.com/movies-music/review/orijinal-movie-review-sreenath-bhasi-time-travel-thriller-k7brq7yw",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1740967",
+          "kind": "Audience",
+          "weight": 20
+        }
       ]
     }
   }
