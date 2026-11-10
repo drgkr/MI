@@ -1162,6 +1162,126 @@
         }
       ]
     },
+    "1339055": {
+      "title": "Ronth",
+      "assessedAt": "2026-11-10",
+      "confidence": "High",
+      "scores": {
+        "writing": 82,
+        "emotion": 86,
+        "pacing": 78,
+        "performances": 90,
+        "rewatch": 76,
+        "critics": 84,
+        "audience": 82
+      },
+      "sources": [
+        {
+          "name": "The New Indian Express review",
+          "url": "https://www.newindianexpress.com/entertainment/malayalam/2025/Jun/13/ronth-movie-review-a-dark-gripping-police-procedural",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/ronth-movie-review-a-solid-police-procedural-led-by-dileesh-pothan-roshan-mathew-but-shahi-kabirs-usual-problematic-tropes-persist-10063971/lite/",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Hollywood Reporter India review",
+          "url": "https://www.youtube.com/watch?v=kZFw2qcVx3Q",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1339055",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "936667": {
+      "title": "Narivetta",
+      "assessedAt": "2026-11-10",
+      "confidence": "Medium",
+      "scores": {
+        "writing": 72,
+        "emotion": 80,
+        "pacing": 64,
+        "performances": 76,
+        "rewatch": 66,
+        "critics": 70,
+        "audience": 78
+      },
+      "sources": [
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2025/05/23/narivetta-movie-review-tovino-thomas-cheran-suraj-venjaramoodu-muthanga-incident.amp.html",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The New Indian Express review",
+          "url": "https://www.newindianexpress.com/entertainment/malayalam/2025/May/23/narivetta-movie-review-emotionally-distant-retelling-of-a-dark-chapter-in-keralas-history",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/narivetta-movie-review-tovino-thomas-film-a-triggering-reminder-10023302/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/936667",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
+    "1251970": {
+      "title": "Padakkalam",
+      "assessedAt": "2026-11-10",
+      "confidence": "High",
+      "scores": {
+        "writing": 70,
+        "emotion": 72,
+        "pacing": 75,
+        "performances": 80,
+        "rewatch": 82,
+        "critics": 72,
+        "audience": 86
+      },
+      "sources": [
+        {
+          "name": "The Times of India review",
+          "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/padakkalamreview/movie-review/121003852.cms",
+          "kind": "Lead critic",
+          "weight": 20
+        },
+        {
+          "name": "Onmanorama review",
+          "url": "https://www.onmanorama.com/entertainment/movie-reviews/2025/05/08/padakkalam-sharafudheen-suraj-venjaramoodu-movie-review.html",
+          "kind": "Second lead critic",
+          "weight": 20
+        },
+        {
+          "name": "The Indian Express review",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/padakkalam-movie-review-suraj-venjaramoodu-sharaf-u-dheen-9991172/lite/",
+          "kind": "Additional critic",
+          "weight": 40
+        },
+        {
+          "name": "TMDB audience rating",
+          "url": "https://www.themoviedb.org/movie/1251970",
+          "kind": "Audience",
+          "weight": 20
+        }
+      ]
+    },
     "1740967": {
       "title": "Orijinal",
       "assessedAt": "2026-10-25",
